@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2&family=Jost:ital,wght@1,300&family=Montserrat&family=Raleway&display=swap');
+
+body {
+    font-family: 'Caveat', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(./assets/realistic-style-technology-particle-background_23-2148426704.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center-div {
+    padding-top: 10%;
+}
+.container {
+    width: 30%; 
+}
+
+.gradient-button {
+    background: linear-gradient(to bottom, #E6E6FA, #8A2BE2); /* Gradient colors */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.gradient-button:hover {
+    background: linear-gradient(to bottom, #8A2BE2, #E6E6FA); /* Gradient colors on hover */
+}
+.gradient-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form {
+    padding: 0 20px;
+}
+
+.transparentInput {
+    background: transparent;
+    border: 1px solid #ccc; /* You can add border styles as needed */
+    padding: 10px; /* You can adjust padding as needed */
+    color: #ffffff; /* You can adjust text color as needed */
+    /* Other styles as needed */
+}
+
+.transparentInput::placeholder {
+    color: white;
+}
+
+.transparentInput:focus {
+    background: transparent; /* Background color on focus */
+    color: #fff;
+    outline: none; /* Remove the default focus outline (optional) */
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .center-div {
+        padding-top: 20%;
+    }
+    
+    .container {
+        width: 30%;
+    }
+}
+
